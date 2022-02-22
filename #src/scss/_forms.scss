@@ -1,0 +1,61 @@
+//<FORM ()>========================================================================
+.form{//
+
+	&__row{//
+	
+
+	}
+	
+	&__column{//
+	
+		
+	}
+	
+	&__line{//
+	
+		
+	}
+	&__input{//
+	
+		
+	}
+	&__button{//
+	
+		
+	}
+	&__errow{//
+	
+		
+	}
+	
+}
+
+
+//<FORM>=============================================================================
+
+//<BUTTONS (a.btn+tab)>==============================================================
+.btn{//
+
+	display: inline-flex;//
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+
+}
+//</BUTTONS>=========================================================================
+
+//<SELECT (sel+tab)>=================================================================
+.select{//
+	position: relative;
+	//.select__item
+	&__item{//
+		position: relative;//
+	}
+	&__title{//
+		color: #000;//
+		border: 1px solid #d9d9d9;//
+		background-color: #fff;
+		cursor: pointer;
+	}
+}

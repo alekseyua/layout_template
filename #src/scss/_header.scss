@@ -1,0 +1,113 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+.cocial-header{
+    width: 100%;
+
+    &__list{
+        display: flex;
+        flex-direction: row;
+
+    }
+    &__item{
+        margin-right: 25px;
+    }
+    &__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: rgba(0, 0, 0, .12);
+        max-width: 56px;
+        max-height: 56px;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+    }
+}
+
+.cocial-icons{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    &:hover{
+        color: rgb(193, 106, 255);
+    }
+}
+
+.header{
+
+    &__body-wrapper{
+
+        position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+    }
+    &__wrapper-top{
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 50px 0 0;
+        max-height: 105px;
+        align-items: end;
+
+    }
+    &__logo-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.body-logo{
+    display: flex;
+    flex-direction: column;
+    &__logo-img{
+        // background-color: aqua;
+    }
+}
+
+.contacts-hader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-height: 100%;
+    position: relative;
+    &__phone{
+        padding-right: 70px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &__cart{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #000;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        &:hover{
+            border: 2px solid #fff;
+        }
+    }
+
+
+    &__cart-img{
+        padding: 10px;
+        // &:after{
+        //     content:'';
+
+        // }
+    }
+}
