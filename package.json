@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node gulpfile.js",
+    "start": "yarn gulp",
+    "prod": "node gulpfile.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
